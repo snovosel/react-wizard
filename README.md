@@ -65,6 +65,8 @@ Open to all suggestions and feedback for scaling this component.
 
 Please report all bugs in the issues tab.
 
+---
+
 MIT License
 
 Copyright (c) 2019 Steve Novosel
