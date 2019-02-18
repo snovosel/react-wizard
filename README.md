@@ -44,11 +44,11 @@ Then, the wizard component will expose the current step as a variable, along wit
 
 React-wizard exposes several values and functions within its render method to pass to the current step. From there, the developer will have access to all component methods and values from within the current step component. Here is the list of the list of exposed values/actions from react-wizard:
 
-`CurrentStep` - The current step to be rendered from the array passed into as a prop.
-`wizardValues` - the current object of values taken from each step of the wizard.
-`back()` - navigate to the previous step.
-`next()` - navigate to the next step.
-`saveValue(String name, any value)` - save a value on the wizard. This function takes in a name and a value and will save them as a key/pair value within the value object of the component's state.
+- `CurrentStep` - The current step to be rendered from the array passed into as a prop.
+- `wizardValues` - the current object of values taken from each step of the wizard.
+- `back()` - navigate to the previous step.
+- `next()` - navigate to the next step.
+- `saveValue(String name, any value)` - save a value on the wizard. This function takes in a name and a value and will save them as a key/pair value within the value object of the component's state.
 
 The actions defined above have all been separated to allow full flexibility to the developer. For example, a developer can save a value to the wizard without changing the current step, or change the current step without saving a value.
 
