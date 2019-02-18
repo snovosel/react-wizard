@@ -11,7 +11,7 @@ install the package using: `npm install @snovosel/react-wizard`
 Using the wizard component can be very easy. Define the steps you wish to be iterated through using an array.
 The array can contain functions to pure JSX or specified components.
 
-I recommend using pre-constructed components for the steps.
+I recommend using pre-constructed components for the steps but in this example we will use pure jsx.
 
 ```javascript
 const testSteps = [
