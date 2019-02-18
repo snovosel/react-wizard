@@ -1,6 +1,6 @@
 {
   "name": "@snovosel/react-wizard",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "wizard component for easy step-based navigation and collection of data",
   "main": "dist/index.js",
   "scripts": {
