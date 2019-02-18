@@ -24,16 +24,11 @@ const testSteps = [
 >
   {({
     CurrentStep,
-    wizardValues,
-    actions: { back, next, saveValue }
+    ...restWizardValues
   }) => (
-    <Fragment>
-      <CurrentStep />
-      <button onClick={() => back()}>back</button>
-      <button onClick={() => next(saveValue("test", "my name is earl"))}>
-        next
-      </button>
-    </Fragment>
+    <CurrentStep
+      {...restWizardValues}
+    />
   )}
 </Wizard>
 ```
