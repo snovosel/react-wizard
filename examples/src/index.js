@@ -11,28 +11,6 @@ const testSteps = [
   () => <h1>step four</h1>
 ];
 
-// const App = () => (
-//   <div className="app">
-//     <div className="container">
-//       <Wizard
-//         totalSteps={testSteps.length}
-//         callBack={state => console.log("state callback", state)}
-//       >
-//         {({ currentStep, wizardValues }) => {
-//           const DerivedWizardStep = testSteps[currentStep];
-//
-//           return (
-//             <Fragment>
-//               <div>current step: {currentStep}</div>
-//               <DerivedWizardStep />
-//             </Fragment>
-//           );
-//         }}
-//       </Wizard>
-//     </div>
-//   </div>
-// );
-
 const App = () => (
   <div className="app">
     <div className="container">
