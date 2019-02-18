@@ -59,7 +59,7 @@ The props for this component are simple, the steps you want to iterate through, 
 - `steps` - `Array[]` - An array of functions returning pure JSX or individual components. Recommended to use components for styling purposes.
 - `callBack` - `function()` - function to be called on each wizard update.
 
-#### additional information
+#### Additional information
 
 Open to all suggestions and feedback for scaling this component.
 
